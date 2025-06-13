@@ -30,8 +30,8 @@ All communication is handled through **socket-based TCP/IP messaging**, making t
                                                 (MPU6050 via I2C)
 
 Each node runs independently and communicates with the ServerNode using specific port assignments.
-
-🔧 Features
+```
+##🔧 Features
 🔢 Menu-driven control via physical 4x4 keypad
 
 📡 TCP socket communication between all nodes
@@ -46,7 +46,8 @@ Each node runs independently and communicates with the ServerNode using specific
 
 🧱 Modular node-based code structure (easy to expand)
 
-###############################################################################################################################################################################################################################
+```text
+
 Project Structure
 .
 ├── ClientNode.cpp       # Menu system (runs on external device)
@@ -65,11 +66,12 @@ Project Structure
 │   ├── SocketConLib.cpp
 │   └── ...
 ├── CMakeLists.txt       # Build configuration
-################################################################################################################################################################################################################################
+
 ```
+---
 
 ##🛠️ Setup & Run
-#🔌 Requirements
+##🔌 Requirements
 Raspberry Pi (with GPIO & I2C enabled)
 MPU6050 Sensor
 4x4 Matrix Keypad
@@ -81,19 +83,19 @@ On Raspberry Pi (in different terminals)
 ./DigitalIONode
 ./GyroSensorNode
 
-# On your laptop (or same Pi)
+On your laptop (or same Pi)
 ./ClientNode
-
-#📘 Communication Protocol (Message Examples)
-Command Sent	Expected Response	Description
-relay1:	relay ok:	Turn on the relay
-relayDurum:	relay 1: or relay 0:	Get relay status
-keyOnce:	key 3:	Read single key
-key:	key 123#:	Read multi-digit keypad input
-sensorDurum:	sensorDurum 0:	Sensor condition value
-gyro:	GYRO:x,y,z	Gyroscope data
-temp:	TEMP:xx.x°C	Temperature from MPU6050
-acc:	ACC:x,y,z	Acceleration data
-kapat:	kapat ok:	Close connection
+--- 
+##📘 Communication Protocol (Message Examples)
+Command Sent	        Expected Response	             Description
+relay1:	              relay ok:	                     Turn on the relay
+relayDurum:	          relay 1: or relay 0:	         Get relay status
+keyOnce:	            key 3:	                       Read single key
+key:	                key 123#:	                     Read multi-digit keypad input
+sensorDurum:	        sensorDurum 0:	               Sensor condition value
+gyro:	                GYRO:x,y,z	                   Gyroscope data
+temp:	                TEMP:xx.x°C	                   Temperature from MPU6050
+acc:	                ACC:x,y,z	                     Acceleration data
+kapat:	              kapat ok:	                     Close connection
 
 
