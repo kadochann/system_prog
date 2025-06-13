@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/DigitalIONode.dir/DigitalIONode.cpp.o CMakeFiles/DigitalIONode.dir/src/RelayLib.cpp.o -o DigitalIONode  src/libSocketConLib.a -lwiringPi -lgpiod -lpthread 

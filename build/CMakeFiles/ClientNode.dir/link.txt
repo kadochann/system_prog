@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ClientNode.dir/ClientNode.cpp.o CMakeFiles/ClientNode.dir/src/KeypadLib.cpp.o -o ClientNode  src/libSocketConLib.a -lpthread -lgpiod 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ServerNode.dir/ServerNode.cpp.o -o ServerNode  src/libSocketConLib.a -lpthread 

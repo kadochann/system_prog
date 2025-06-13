@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGyroLib.a CMakeFiles/GyroLib.dir/GyroLib.cpp.o CMakeFiles/GyroLib.dir/i2c.cpp.o
+/usr/bin/ranlib libGyroLib.a

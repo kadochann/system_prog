@@ -1,0 +1,10 @@
+/home/student/proje/build/CMakeFiles/ClientNode.dir
+/home/student/proje/build/CMakeFiles/ServerNode.dir
+/home/student/proje/build/CMakeFiles/GyroSensorNode.dir
+/home/student/proje/build/CMakeFiles/DigitalIONode.dir
+/home/student/proje/build/CMakeFiles/edit_cache.dir
+/home/student/proje/build/CMakeFiles/rebuild_cache.dir
+/home/student/proje/build/src/CMakeFiles/GyroLib.dir
+/home/student/proje/build/src/CMakeFiles/SocketConLib.dir
+/home/student/proje/build/src/CMakeFiles/edit_cache.dir
+/home/student/proje/build/src/CMakeFiles/rebuild_cache.dir
