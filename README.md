@@ -68,15 +68,15 @@ Project Structure
 ################################################################################################################################################################################################################################
 ```
 
-🛠️ Setup & Run
-🔌 Requirements
+##🛠️ Setup & Run
+#🔌 Requirements
 Raspberry Pi (with GPIO & I2C enabled)
 MPU6050 Sensor
 4x4 Matrix Keypad
 Relay Module
 libgpiod, wiringPi, CMake, g++ (C++17)
 
-# On Raspberry Pi (in different terminals)
+On Raspberry Pi (in different terminals)
 ./ServerNode
 ./DigitalIONode
 ./GyroSensorNode
@@ -84,7 +84,7 @@ libgpiod, wiringPi, CMake, g++ (C++17)
 # On your laptop (or same Pi)
 ./ClientNode
 
-📘 Communication Protocol (Message Examples)
+#📘 Communication Protocol (Message Examples)
 Command Sent	Expected Response	Description
 relay1:	relay ok:	Turn on the relay
 relayDurum:	relay 1: or relay 0:	Get relay status
